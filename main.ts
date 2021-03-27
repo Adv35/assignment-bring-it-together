@@ -12,7 +12,7 @@ for (let index = 0; index < 10; index++) {
     trips += 1
     serial.writeValue("trips", trips)
     if (trips == 0 || (trips == 3 || (trips == 6 || trips == 9))) {
-        counter = 45
+        counter = 47
         for (let index = 0; index < 17; index++) {
             counter += -2
             serial.writeValue("count", counter)
